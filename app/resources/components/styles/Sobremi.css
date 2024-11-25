@@ -1,0 +1,32 @@
+.split-container {
+  display: flex;
+  min-height: 800px;
+  width: 100%;
+}
+
+.image-side {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-side {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ff930a;
+}
+
+.text-side h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.text-side p {
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 1rem;
+}

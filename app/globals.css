@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main: #582770;
+  --main-light: #a8539c;
+  --detail-light: #ff930a;
+  --detail-dark: #f24b04;
+  --main-lightpink: #d1105a;
+}
+
+* {
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: white;
+  font-style: normal;
+
+  text-decoration: none;
+}
+
+body {
+  background-color: #582770;
+}
+
+.layout {
+  width: 100%;
+
+  display: grid;
+  grid:
+    "navbar" auto
+    "main" auto
+    "sobre-mi" auto
+    "podcast" auto
+    "academia-online" auto
+    "blog" auto
+    "footer" auto
+    / 1fr;
+  gap: 5px 8px;
+}
+
+.navbar {
+  grid-area: navbar;
+}
+.main {
+  grid-area: main;
+}
+.sobre-mi {
+  grid-area: sobre-mi;
+}
+.podcast {
+  grid-area: podcast;
+}
+.academia-online {
+  grid-area: academia-online;
+}
+.blog {
+  grid-area: blog;
+}
+.footer {
+  grid-area: footer;
+}
