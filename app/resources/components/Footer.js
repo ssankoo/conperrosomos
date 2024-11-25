@@ -13,22 +13,14 @@ function Footer() {
 
 <footer class="bg-[#F24B04] rounded-lg shadow m-4">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-white sm:text-center">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+        <span class="text-sm text-white sm:text-center">© 2024 <a href="https://flowbite.com/" class="hover:underline">ConPerroSomos</a>. Todos los derechos reservados
         </span>
         
-        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0">
-        <li>
-            <a href="#" class="hover:underline me-4 md:me-6">About</a>
-        </li>
-        <li>
-            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-        </li>
-        <li>
-            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-        </li>
-        <li>
-            <a href="#" class="hover:underline">Contact</a>
-        </li>
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0">
+            <a href="https://www.instagram.com/" target="_blank"><InstagramIcon/></a>
+            <a href="https://www.facebook.com/" target="_blank"><FacebookIcon/></a>
+            <a href="https://x.com/home?lang=en" target="_blank"><XIcon/></a>
+            <a href="https://open.spotify.com/" target="_blank"><PodcastsIcon/></a>
         </ul>
     </div>
 </footer>

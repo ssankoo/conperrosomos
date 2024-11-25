@@ -1,7 +1,7 @@
 function Blog() {
   return (
-<section id="blog">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl">
+<section className="h-screen flex items-center" id="blog">
+    <div class="pb-8 px-4 mx-auto">
     <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
     <h2 class="mb-4 text-3xl  tracking-tight font-extrabold text-white ">Blog</h2>
     <p class="font-light text-gray-500 sm:text-xl">Lorem ipsun dolor sit amet, consectetur adipiscing elit.</p>
