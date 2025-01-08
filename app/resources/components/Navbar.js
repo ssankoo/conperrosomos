@@ -19,11 +19,11 @@ export default function Navbar() {
 
 
 <nav class="bg-[#F24B04] fixed w-full z-20 top-0 start-0 ">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-[28px]">
   <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
       <Image 
       src={logo}
-      width={85}
+      width={150}
       alt="logo"
       />
   </a>

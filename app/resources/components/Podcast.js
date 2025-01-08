@@ -1,24 +1,45 @@
+import Link from 'next/link';
+import React from 'react';
 
 function Podcast() {
   return (
-    <section id="podcast" className="h-screen flex items-center"> 
-        <div className="container mx-auto py-16 px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-          <div className="mt-12">
-          <iframe src="https://open.spotify.com/embed/episode/5KwmUkmniqbyVS6F42hiFD/video?utm_source=generator" width="624" height="351" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            </div>
-            <div className="max-w-lg">
-              <div className="text-2xl">Podcast</div>
-              <p className="mt-4 text-white text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
-                    eros at lacus feugiat hendrerit sed ut tortor. Suspendisse et magna quis elit efficitur consequat.
-                    Mauris eleifend velit a pretium iaculis. Donec sagittis velit et magna euismod, vel aliquet nulla
-                    malesuada. Nunc pharetra massa lectus, a fermentum arcu volutpat vel.
-              </p>
-            </div>
+    <section id="podcast" className="bg-[#582770] text-white py-16">
+      <div className="container mx-auto px-4">
+        {/* Section Title */}
+        <h2 className="text-4xl font-bold text-center mb-8 overflow-hidden">
+        Mira nuestro podcast!
+        </h2>
+
+        {/* Podcast Content */}
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+          {/* Podcast Player */}
+          <div className=" w-full">
+            <iframe
+              style={{ borderRadius: '12px' }}
+              src="https://open.spotify.com/embed/episode/5cAK2WUtsy76Lap26haEFa/video?utm_source=generator&theme=0&t=0"
+              width="100%"
+              height="351"
+            ></iframe>
+          </div>
+
+          {/* Podcast Details */}
+          <div className="text-center md:text-left">
+            <p className="text-lg mb-6 leading-relaxed">
+            Sumérgete en nuestro último episodio, en el que analizamos temas interesantes, compartimos conocimientos y te entretenemos con historias interesantes. ¡No te lo pierdas!
+            </p>
+            <Link
+              href="https://open.spotify.com/show/your-podcast-link" // Replace with your podcast page link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-white text-purple-900 font-bold py-3 px-6 rounded-lg shadow-md hover:bg-gray-200 transition duration-300"
+            >
+              Ver más
+            </Link>
           </div>
         </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default Podcast
+export default Podcast;
