@@ -4,9 +4,10 @@ import Navbar from "./resources/components/Navbar";
 import Main from "./resources/components/Main";
 import Sobremi from "./resources/components/Sobremi";
 import Blog from "./resources/components/Blog"
-import Footer from "./resources/components/Footer"
-import Podcast from "./resources/components/Podcast";
 
+import Podcast from "./resources/components/Podcast";
+import AcademiaOnline from "./resources/components/AcademiaOnline";
+import Footer from "./resources/components/Footer"
 
 
 import perro from "./resources/perroDefault.jpg"
@@ -26,6 +27,7 @@ import PersonIcon from '@mui/icons-material/Person';
 
 
 
+
 export default function Home() {
   return (
 <section class="layout">
@@ -34,10 +36,12 @@ export default function Home() {
 
 
   <div class="main"><Main/></div>
-  <div class="sobre-mi"><Sobremi/></div>
-  <div class="blog"><Blog/></div>
+  <div class="sobre-nosotros"><Sobremi/></div>
   <div class="podcast"><Podcast/></div>
+  <div class="blog"><Blog/></div>
+  <div class="academia-online"><AcademiaOnline/></div>
   <div class="footer"><Footer/></div>
+ 
 
 </section>
 

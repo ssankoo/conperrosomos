@@ -9,9 +9,9 @@ export default function BlogSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {/* First Card */}
                 <article className="flex flex-col">
-                    <div className="relative aspect-[16/9] mb-4 overflow-hidden rounded-lg">
+                    <div className="aspect-[16/9] mb-4 overflow-hidden rounded-lg">
                         <Image
-                            src="/placeholder1.jpg"
+                            src=""
                             alt="Blog post image"
                             fill
                             className="object-cover"
@@ -24,9 +24,9 @@ export default function BlogSection() {
 
                 {/* Second Card */}
                 <article className="flex flex-col">
-                    <div className="relative aspect-[16/9] mb-4 overflow-hidden rounded-lg">
+                    <div className="aspect-[16/9] mb-4 overflow-hidden rounded-lg">
                         <Image
-                            src="/placeholder1.jpg"
+                            src=""
                             alt="Blog post image"
                             fill
                             className="object-cover"
@@ -38,9 +38,9 @@ export default function BlogSection() {
                 </article>
                 {/* Third Card */}
                 <article className="flex flex-col">
-                    <div className="relative aspect-[16/9] mb-4 overflow-hidden rounded-lg">
+                    <div className="aspect-[16/9] mb-4 overflow-hidden rounded-lg">
                         <Image
-                            src="/placeholder3.jpg"
+                            src=""
                             alt="Blog post image"
                             fill
                             className="object-cover"

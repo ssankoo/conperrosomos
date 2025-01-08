@@ -38,7 +38,7 @@ export default function Navbar() {
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
     <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
       <li>
-        <Link href="#sobre-mi" class="block py-2 px-3 text-white md:hover:text-[#582770] md:p-0">Sobre nosotros</Link>
+        <Link href="#sobre-nosotros" class="block py-2 px-3 text-white md:hover:text-[#582770] md:p-0">Sobre nosotros</Link>
       </li>
       <li>
       <Link href="#podcast" class="block py-2 px-3 text-white md:hover:text-[#582770] md:p-0">Podcast</Link>
