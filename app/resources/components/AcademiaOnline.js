@@ -13,7 +13,7 @@ function Courses() {
   };
 
   return (
-    <section id="courses" className="bg-[#F24B04] py-16">
+    <section id="acedemia-online" className="bg-[#F24B04] py-16">
       <div className="container mx-auto px-4">
         {/* Section Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
@@ -29,7 +29,7 @@ function Courses() {
               onClick={handleLearnMoreClick}
               className="bg-purple-900 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-purple-700 transition duration-300"
             >
-              Learn More
+              Aprende más
             </button>
           </div>
 
