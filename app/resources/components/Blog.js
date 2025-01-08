@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function BlogSection() {
     return (
-        <section className="max-w-7xl mx-auto px-4 py-16">
+        <section className="max-w-7xl mx-auto px-4 py-16" id='blog'>
             <h2 className="text-3xl mb-12">Últimas publicaciones</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

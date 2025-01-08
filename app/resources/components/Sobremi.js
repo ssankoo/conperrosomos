@@ -6,7 +6,7 @@ import PerrosImage from '../imgs/grupo-perros.png'
 export default function Sobremi() {
   return (
     <section className="bg-[#F24B04] min-h-screen flex items-center" id="sobre-mi">
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-8">
@@ -31,7 +31,7 @@ export default function Sobremi() {
           </div>
 
           {/* Image Container */}
-          <div className=" h-[600px] w-full">
+          <div className=" w-full">
             <Image
               src={PerrosImage}
               alt="Modern office space"
