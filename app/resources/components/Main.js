@@ -3,6 +3,7 @@ import Image from 'next/image'
 import logo from '../imgs/logo-bg-blanco-color.png'
 import Link from 'next/link'
 
+
 export default function Main() {
     return (
         <main className="h-screen bg-[#582770] flex items-center justify-center px-4">
